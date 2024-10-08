@@ -3,6 +3,7 @@
 
 #include <string>
 
-void studentsAboveAverage(std::string student[], int grades[], int numberOfStudents);
-
+namespace studentsAboveAverage{
+    void studentsAboveAverage(std::string student[], int grades[], int numberOfStudents);
+}
 #endif
